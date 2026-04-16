@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Arial, sans-serif;
+}
+
+/* ===== BODY ===== */
+body{
+    background:#f1f5f9;
+    color:#0f172a;
+}
+
+/* ===== NAVBAR ===== */
+nav{
+    background:linear-gradient(90deg,#0284c7,#0369a1);
+    padding:15px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+}
+nav .logo{
+    font-weight:bold;
+    font-size:18px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:500;
+}
+nav a:hover{
+    text-decoration:underline;
+}
+
+/* ===== HERO ===== */
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:50px;
+}
+.hero h1{
+    color:#0369a1;
+    font-size:32px;
+}
+.hero p{
+    margin-top:10px;
+    color:#475569;
+}
+.hero img{
+    width:320px;
+    border-radius:18px;
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+/* ===== CONTAINER ===== */
+.container{
+    padding:40px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+/* ===== CARD ===== */
+.card{
+    background:white;
+    border-radius:16px;
+    padding:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+.card img{
+    width:100%;
+    border-radius:12px;
+}
+.card h3{
+    margin:12px 0 5px;
+    color:#0369a1;
+}
+.card p{
+    color:#475569;
+}
+
+/* ===== FORM ===== */
+form{
+    max-width:400px;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+input,button{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border-radius:10px;
+    border:1px solid #cbd5e1;
+}
+button{
+    background:#0284c7;
+    color:white;
+    border:none;
+    font-weight:bold;
+    cursor:pointer;
+}
+button:hover{
+    background:#0369a1;
+}
+
+/* ===== BADGE ===== */
+.badge{
+    padding:6px 14px;
+    border-radius:999px;
+    font-size:13px;
+}
+.pending{
+    background:#fde68a;
+    color:#92400e;
+}
+
+/* ===== FOOTER ===== */
+footer{
+    text-align:center;
+    padding:20px;
+    color:#64748b;
+    font-size:14px;
+}
